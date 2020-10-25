@@ -22,8 +22,9 @@ $merah Created by Covra Technologies -- -- -- -- -- -- --
 \n";
 echo "$hijau [1] Enter Your Website or Blog Url : "; 
 $url = trim(fgets(STDIN));
-echo "$cyan [2] Enter Number of Visitors : "; 
+echo "$hijau [2] Enter Number of Visitors : ";
 $max = trim(fgets(STDIN));
+echo "\n";
 
 error_reporting(0);
 class Random_UA
@@ -210,7 +211,7 @@ class autovisitor extends Random_UA {
 		$list[] = "http://www.google.com";
 		$list[] = "http://www.google.com.af";
 		$list[] = "http://www.google.as";
- 	   $list[] = "http://www.google.off.ai";
+ 	   	$list[] = "http://www.google.off.ai";
         $list[] = "http://www.google.com.ag";
 	    $list[] = "http://www.google.am";
 	    $list[] = "http://www.google.com.au";
@@ -238,7 +239,7 @@ class autovisitor extends Random_UA {
         $list[] = "http://www.google.hr";
         $list[] = "http://www.google.com.cu";
 		$list[] = "http://www.google.cz";
- 	   $list[] = "http://www.google.ci";
+ 	   	$list[] = "http://www.google.ci";
         $list[] = "http://www.google.dk";
 	    $list[] = "http://www.google.dj";
 	    $list[] = "http://www.google.dm";
@@ -266,7 +267,7 @@ class autovisitor extends Random_UA {
         $list[] = "http://www.google.co.id";
         $list[] = "http://www.google.co.in";
 		$list[] = "http://www.google.ie";
- 	   $list[] = "http://www.google.co.im";
+ 	   	$list[] = "http://www.google.co.im";
         $list[] = "http://www.google.it";
 	    $list[] = "http://www.google.il";
 	    $list[] = "http://www.google.com.im";
